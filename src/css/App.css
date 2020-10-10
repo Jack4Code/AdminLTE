@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+:root {
+	--blue-theme: #3c8dbc;
+	--red-theme: #dd4b39;
+	--left-side-nav: #222d32;
+	--left-nav-btn: #1e282c;
+	--right-side-nav: #222d32;
+	--darker-nav: #21292c;
+}

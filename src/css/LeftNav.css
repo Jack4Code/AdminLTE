@@ -1,0 +1,57 @@
+.left-nav-wrapper {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 100%;
+    background-color: var(--left-side-nav);
+    transition: width 0.23s ease-in-out;
+}
+
+.nav-title {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 3.125rem;
+    width: 100%;
+}
+
+.title-label {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 3.125rem;
+    font-weight: 650;
+}
+
+.profile-wrapper {
+    position: absolute;
+    top: 3.125rem;
+    left: 0rem;
+    width: 100%;
+}
+
+.profile-photo-wrapper {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.profile-photo-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-name {
+    position: absolute;
+    width: 0rem;
+    height: 1rem;
+    top: 0.75rem;
+    left: 5rem;
+    transition-delay: 0.2s;
+    transition: width 0.23s ease-in-out;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

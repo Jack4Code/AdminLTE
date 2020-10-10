@@ -1,0 +1,49 @@
+.top-bar {
+    position: absolute;
+    top: 0rem;
+    /* left: 3.125rem; */
+    height: 3.125rem;
+    /* width: calc(100% - 3.125rem); */
+    /* background-color: var(--blue-theme); */
+    transition: left 0.23s ease-in-out, width 0.23s ease-in-out;
+}
+
+.hamburger-menu {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 3.125rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 3.125rem;
+    width: 100%;
+    text-align: center;
+    line-height: 3.125rem;
+    color: white;
+}
+
+.settings-icon-wrapper {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    height: 3.125rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.gear-icon {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 3.125rem;
+    color: white;
+    text-align: center;
+    line-height: 3.125rem;
+}

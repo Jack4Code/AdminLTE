@@ -1,0 +1,97 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-wrapper {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    height: 25rem;
+    width: 50%;
+    min-width: 35rem;
+    max-width: 50rem;
+    background-color: white;
+    border: 0.75px solid rgb(223, 223, 223);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper-top-color-bar {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 0.2rem;
+    width: 100%;
+}
+
+.property-value-header {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.property-value-input-wrapper {
+    position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+}
+
+.dollar-symbol {
+    position: absolute;
+    top: 0rem;
+    left: -0.75rem;
+    font-weight: 700;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 8.75rem;
+    font-weight: 600;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.downpayment-value-header {
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.downpayment-input-wrapper {
+    position: absolute;
+    top: 9.5rem;
+    left: 2rem;
+}
+
+.loan-info-wrapper {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    height: 10rem;
+    width: 15rem;
+}
+
+.loan-amount-header {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.loan-amount-value {
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
