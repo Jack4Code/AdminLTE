@@ -15,7 +15,7 @@ export default class Dashboard extends Component {
             colorTheme: COLORS.blueTheme,
             rightSideNavActive: false,
             leftNav: true,
-            page: "Dashboard"
+            page: "Tables"
         };
 
         this.changeColorTheme = this.changeColorTheme.bind(this);

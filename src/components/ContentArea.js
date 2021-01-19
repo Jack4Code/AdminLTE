@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/ContentArea.css';
 import LoanCal from './pages/LoanCal.js';
+import TablePage from './pages/TablePage.js';
 
 
 export default class ContentArea extends Component {
@@ -24,8 +25,10 @@ export default class ContentArea extends Component {
             case "LoanCal":
                 page = <LoanCal colorTheme={this.props.colorTheme} />
                 break;
+            case "Tables":
+                page = <TablePage />
+                break;
         }
-
 
         return page;
     }

@@ -15,7 +15,7 @@ export default class LeftNav extends Component {
             navButtons: [{
                 id: 1,
                 title: 'Dashboard',
-                isActive: true,
+                isActive: false,
                 icon: "fa fa-dashboard"
             },
             {
@@ -46,7 +46,7 @@ export default class LeftNav extends Component {
             {
                 id: 6,
                 title: 'Tables',
-                isActive: false,
+                isActive: true,
                 icon: "fa fa-table"
             }
             ]
